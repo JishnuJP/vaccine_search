@@ -1,0 +1,2 @@
+1XXXXXX:AXXXXXXXXXXXXXXXXXXXXXXXX  Enter your telegram token on this line
+XXXXXX	Enter your chat id on this line
