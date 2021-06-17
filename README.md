@@ -1,7 +1,7 @@
 # vaccine_search
-This project is an attempt to create a python app that can search for covid vaccine availability in any district in India. It uses the api setu of Indian govt to collect the data.
+This project is an attempt to create a python (terminal)app that can search for covid vaccine availability in any district in India. It uses the api setu of Indian govt to collect the data.
 It can also send messages in telegram when an available slot is found in your locality.</br>
-
+![Image](https://github.com/JishnuJP/vaccine_search/blob/master/terminal_output.png)
 ## Requirements
 
 * python3.x </br>
