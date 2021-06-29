@@ -1,6 +1,6 @@
 
 import requests
-import ast
+import json
 
 class bot:
 	def __init__(self,url,chat=None):
@@ -32,7 +32,7 @@ class apiSetu:
 		# content of resp is in bytes
 		if resp.status_code == 200:
 			content = resp.content.decode('UTF-8') # converting bytes to str
-			return ast.literal_eval(content) #converting str to dict
+			return json.loads(content) #converting str to dict
 		else:
 			responseHandler(resp.status_code,url)
 
